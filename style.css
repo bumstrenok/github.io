@@ -1,29 +1,43 @@
-div {
-    width: 500px;
-    height: 500px;
-  
-    background: #333333;
-  }
-  
-  #main {
-    color: white;
-    width: 750px;
-  }
-  
-  .text-white {
-    color: white;
-  }
-  
-  .alert {
-    height: 350px;
-    color: gray;
-  }
-  
-  div {
-    background: blue;
-  }
-  
-  .alert-warning {
-    background: #000000;
-    color: yellow;
-  }
+body {
+  font-family: Georgia;
+  font-size: 16px;
+  margin: 0 auto;   /* center content */
+  max-width: 800px; /* limit width */
+  line-height: 1.5;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+
+div{
+  margin-bottom: 12px;
+}
+
+h1{
+  font-size: 36px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 32px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  border-bottom: 1px solid grey;
+}
+
+.header-title{
+  font-size: 18px;
+  border-bottom: none;
+  margin-bottom: 10px;
+}
+
+#header{
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+#footer{
+  margin-top: 64px;
+  text-align: center;
+}
